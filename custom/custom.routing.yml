@@ -1,0 +1,7 @@
+collect_phone.form:
+  path: '/collect-email'
+  defaults:
+    _title: 'CustomForm.'
+    _form: '\Drupal\custom\Form\CollectEmail'
+  requirements:
+    _permission: 'access content'
